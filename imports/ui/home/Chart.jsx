@@ -48,7 +48,7 @@ export default class Chart extends Component{
                             pointRadius: 1,
                             borderColor: 'rgba(255,152,0,0.5)',
                             borderJoinStyle: 'round',
-                            backgroundColor: 'rgba(255,193,101,0.5)',
+                            backgroundColor: 'rgba(73, 218, 213,0.5)',
                             data: votingPower
                         },
                         {
@@ -59,7 +59,7 @@ export default class Chart extends Component{
                             pointRadius: 1,
                             borderColor: 'rgba(189,28,8,0.5)',
                             borderJoinStyle: 'round',
-                            backgroundColor: 'rgba(255,103,109,0.5)',
+                            backgroundColor: 'rgba(73, 218, 213,0.5)',
                             data: validators,
                         }
                     ]
@@ -75,7 +75,7 @@ export default class Chart extends Component{
                             pointRadius: 1,
                             borderColor: 'rgba(156,39,176,0.5)',
                             borderJoinStyle: 'round',
-                            backgroundColor: 'rgba(229,112,249,0.5)',
+                            backgroundColor: 'rgba(73, 218, 213,0.5)',
                             data: blockTime,
                             tooltips: {
                                 callbacks: {
@@ -99,7 +99,7 @@ export default class Chart extends Component{
                             pointRadius: 1,
                             borderColor: 'rgba(189,28,8,0.5)',
                             borderJoinStyle: 'round',
-                            backgroundColor: 'rgba(255,103,109,0.5)',
+                            backgroundColor: 'rgba(73, 218, 213,0.5)',
                             data: timeDiff,
                             tooltips: {
                                 callbacks: {
@@ -123,7 +123,7 @@ export default class Chart extends Component{
                             pointRadius: 1,
                             borderColor: 'rgba(255,152,0,0.5)',
                             borderJoinStyle: 'round',
-                            backgroundColor: 'rgba(255,193,101,0.5)',
+                            backgroundColor: 'rgba(73, 218, 213,0.5)',
                             data: validators
                         }
                     ]

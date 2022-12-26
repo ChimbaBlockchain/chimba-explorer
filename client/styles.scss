@@ -7,7 +7,7 @@ $primary: $crypto-org-blue !default;
 @import "materia/bootswatch";
 
 body {
-    background-color: #49dad5;
+    background-color: #000;
     font-size: inherit !important;
   }
   
@@ -1081,7 +1081,8 @@ body {
   
   .card {
     color: #fff;
-    background-color: $bg_secondary;
+    background-color: transparent;
+    border: 0.5px solid gray;
   }
 
   .navbar {
@@ -1089,7 +1090,7 @@ body {
   }
 
   .btn-secondary {
-    background: $primary;
+    background: transparent;
     color: #fff;
   }
   
