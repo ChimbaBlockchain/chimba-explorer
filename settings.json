@@ -1,6 +1,6 @@
 {
     "public":{
-        "chainName": "chimba",
+        "chainName": "CHIMBA",
         "chainId": "chimba",
         "gtm": "123456",
         "slashingWindow": 10000,

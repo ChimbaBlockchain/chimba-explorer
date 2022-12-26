@@ -1,24 +1,24 @@
-# Big Dipper :sparkles:
+# CHIMBA :sparkles:
 
 Block Explorer for Cosmos
 
 ## Projects running on mainnets
 
-[Explore Akash with Big Dipper](https://akash.bigdipper.live/)
+[Explore Akash with CHIMBA](https://akash.bigdipper.live/)
 
-[Explore Band Protocol with Big Dipper](https://band.bigdipper.live/)
+[Explore Band Protocol with CHIMBA](https://band.bigdipper.live/)
 
-[Explore Cosmos Hub with Big Dipper](https://cosmos.bigdipper.live)
+[Explore Cosmos Hub with CHIMBA](https://cosmos.bigdipper.live)
 
-[Explore e-Money with Big Dipper](https://e-money.network/)
+[Explore e-Money with CHIMBA](https://e-money.network/)
 
-[Explore IRISnet with Big Dipper](https://iris.bigdipper.live)
+[Explore IRISnet with CHIMBA](https://iris.bigdipper.live)
 
-[Explore IOV with Big Dipper](https://big-dipper.iov-mainnet-2.iov.one/)
+[Explore IOV with CHIMBA](https://big-dipper.iov-mainnet-2.iov.one/)
 
-[Explore Kava with Big Dipper](https://kava.bigdipper.live/)
+[Explore Kava with CHIMBA](https://kava.bigdipper.live/)
 
-[Explore LikeCoin Chain with Big Dipper](http://likecoin.bigdipper.live/)
+[Explore LikeCoin Chain with CHIMBA](http://likecoin.bigdipper.live/)
 
 ## Projects with testnets
 
@@ -32,7 +32,7 @@ Block Explorer for Cosmos
 
 [Sentinel](https://explorer.sentinel.co/)
 
-## How to run The Big Dipper
+## How to run The CHIMBA
 
 1. Copy `default_settings.json` to `settings.json`.
 2. Update the RPC and API URLs
@@ -73,7 +73,7 @@ big-dipper docker image is a multi stage build that is based on [disney/meteor-b
 ---
 ## Donations :pray:
 
-The Big Dipper is always free and open. Anyone can use to monitor available Cosmos hub or zones, or port to your own chain built with Cosmos SDK. We welcome any supports to help us improve this project.
+The CHIMBA is always free and open. Anyone can use to monitor available Cosmos hub or zones, or port to your own chain built with Cosmos SDK. We welcome any supports to help us improve this project.
 
 ATOM: `cosmos1n67vdlaejpj3uzswr9qapeg76zlkusj5k875ma`\
 BTC: `bc1qye4k27zsn5nehzded6jwsvzg8qd6kgvxyhckts`\

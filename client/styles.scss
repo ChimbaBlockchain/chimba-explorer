@@ -1,4 +1,5 @@
-$crypto-org-blue: #002D74;
+$crypto-org-blue: #49dad5;
+$bg_secondary: #1d938d; 
 $primary: $crypto-org-blue !default;
 
 @import "materia/variables";
@@ -6,6 +7,7 @@ $primary: $crypto-org-blue !default;
 @import "materia/bootswatch";
 
 body {
+    background-color: #49dad5;
     font-size: inherit !important;
   }
   
@@ -137,8 +139,7 @@ body {
   }
   
   a.navbar-brand .logo {
-    max-height: 40px;
-    max-width: 40px;
+    min-width: 12rem;
   }
   
   #header-search {
@@ -358,7 +359,8 @@ body {
   .progress {
     height: 1.5rem !important;
     font-size: inherit !important;
-    border: 1px solid #ddd !important;
+    border: 1px solid #49dad5 !important;
+    background-color: #49dad5 !important;
   }
   
   .tally-result .progress-bar {
@@ -1071,4 +1073,32 @@ body {
     font-size: 18px;
     cursor: help;
     opacity: 0.7;
+  }
+
+  .table {
+    color: #fff;
+  }
+  
+  .card {
+    color: #fff;
+    background-color: $bg_secondary;
+  }
+
+  .navbar {
+    background-color: $bg_secondary;
+  }
+
+  .btn-secondary {
+    background: $primary;
+    color: #fff;
+  }
+  
+  h1 {
+    color: #fff;
+  }
+  span {
+    color: #fff;
+  }
+  button span {
+   color: #000; 
   }

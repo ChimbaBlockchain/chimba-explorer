@@ -171,8 +171,8 @@ export default class Header extends Component {
     render() {
         let signedInAddress = getUser();
         return (
-            <Navbar color="primary" dark expand="lg" fixed="top" id="header">
-                <NavbarBrand tag={Link} to="/"><img src="/img/big-dipper-icon-light.svg" className="img-fluid logo"/> <span className="d-none d-xl-inline-block"><T>navbar.siteName</T>&nbsp;</span><Badge color="secondary">{this.state.version}</Badge> </NavbarBrand>
+            <Navbar dark expand="lg" fixed="top" id="header">
+                <NavbarBrand tag={Link} to="/"><img src="/img/chimba_logo.svg" className="img-fluid logo"/></NavbarBrand>
                 <UncontrolledDropdown className="d-inline text-nowrap">
                     <DropdownToggle caret={(this.state.networks !== "")} tag="span" size="sm" id="network-nav">{Meteor.settings.public.chainId}</DropdownToggle>
                     {this.state.networks}
@@ -196,29 +196,6 @@ export default class Header extends Component {
                         <NavItem>
                             <NavLink tag={Link} to="/voting-power-distribution"><T>navbar.votingPower</T></NavLink>
                         </NavItem>
-                        <NavItem id="user-acconut-icon">
-                            {!signedInAddress?<Button className="sign-in-btn" color="link" size="lg" onClick={() => {this.setState({isSignInOpen: true})}}><i className="material-icons">vpn_key</i></Button>:
-                                <span>
-                                    <span className="d-lg-none">
-                                        <i className="material-icons large d-inline">account_circle</i>
-                                        <Link to={`/account/${signedInAddress}`}> {signedInAddress}</Link>
-                                        <Button className="float-right" color="link" size="sm" onClick={this.signOut}><i className="material-icons">exit_to_app</i></Button>
-                                    </span>
-                                    <span className="d-none d-lg-block">
-                                        <i className="material-icons large">account_circle</i>
-                                        <UncontrolledPopover className="d-none d-lg-block" trigger="legacy" placement="bottom" target="user-acconut-icon">
-                                            <PopoverBody>
-                                                <div className="text-center"> 
-                                                    <p><T>accounts.signInText</T></p>
-                                                    <p><Link className="text-nowrap" to={`/account/${signedInAddress}`}>{signedInAddress}</Link></p>
-                                                    <Button className="float-right" color="link" onClick={this.signOut}><i className="material-icons">exit_to_app</i><span> <T>accounts.signOut</T></span></Button>
-                                                </div>
-                                            </PopoverBody>
-                                        </UncontrolledPopover>
-                                    </span>
-                                </span>}
-                            <LedgerModal isOpen={this.state.isSignInOpen} toggle={this.toggleSignIn} refreshApp={this.props.refreshApp} handleLoginConfirmed={this.shouldLogin()?this.handleLoginConfirmed:null}/>
-                        </NavItem>
                         <NavItem>
                             <UncontrolledDropdown inNavbar>
                                 <DropdownToggle nav caret>
@@ -227,11 +204,11 @@ export default class Header extends Component {
                                 <DropdownMenu right>
                                     <DropdownItem onClick={(e) => this.handleLanguageSwitch('en-US', e)}><T>navbar.english</T></DropdownItem>
                                     <DropdownItem onClick={(e) => this.handleLanguageSwitch('es-ES', e)}><T>navbar.spanish</T></DropdownItem>
-                                    {/* <DropdownItem onClick={(e) => this.handleLanguageSwitch('it-IT', e)}><T>navbar.italian</T></DropdownItem> */}
+                                    {/* <DropdownItem onClick={(e) => this.handleLanguageSwitch('it-IT', e)}><T>navbar.italian</T></DropdownItem> 
                                     <DropdownItem onClick={(e) => this.handleLanguageSwitch('pl-PL', e)}><T>navbar.polish</T></DropdownItem>
                                     <DropdownItem onClick={(e) => this.handleLanguageSwitch('ru-RU', e)}><T>navbar.russian</T></DropdownItem>
                                     <DropdownItem onClick={(e) => this.handleLanguageSwitch('zh-Hant', e)}><T>navbar.chinese</T></DropdownItem>
-                                    <DropdownItem onClick={(e) => this.handleLanguageSwitch('zh-Hans', e)}><T>navbar.simChinese</T></DropdownItem>
+                                    <DropdownItem onClick={(e) => this.handleLanguageSwitch('zh-Hans', e)}><T>navbar.simChinese</T></DropdownItem> */}
                                 </DropdownMenu>
                             </UncontrolledDropdown>
                         </NavItem>
