@@ -40,8 +40,8 @@
         "banners": false
     },
     "remote":{
-        "rpc":"https://rpc.testnet.chimbablockchain.io/",
-        "api":"https://testnet.chimbablockchain.io/"
+        "rpc":"https://rpc.testnet.chimbablockchain.io",
+        "api":"https://testnet.chimbablockchain.io"
     },
     "debug": {
         "startTimer": true
