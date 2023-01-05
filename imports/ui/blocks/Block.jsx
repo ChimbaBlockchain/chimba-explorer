@@ -8,6 +8,7 @@ import TranactionTabs from '../transactions/TransactionTabs.jsx';
 import { Helmet } from 'react-helmet';
 import i18n from 'meteor/universe:i18n';
 import TimeStamp from '../components/TimeStamp.jsx';
+import '../stylesheets/general.css';
 
 const T = i18n.createComponent();
 export default class Block extends Component{

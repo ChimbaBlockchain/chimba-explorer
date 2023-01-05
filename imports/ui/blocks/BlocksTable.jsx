@@ -93,7 +93,7 @@ export default class BlocksTable extends Component {
                     open={this.state.sidebarOpen}
                     onSetOpen={this.onSetSidebarOpen}
                     styles={{ sidebar: { 
-                        background: "white", 
+                        background: "black", 
                         position: "fixed",
                         width: '85%',
                         zIndex: 4
